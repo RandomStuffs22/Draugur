@@ -105,6 +105,14 @@ header.site-header {
             }
         }
         // Custom color for Google+ icon
+        .rss {
+            a {
+                &:hover {
+                    color: #ff7e00 !important;
+                }
+            }  
+        }
+        // Custom color for Google+ icon
         .gplus {
             a {
                 &:hover {
@@ -159,11 +167,9 @@ main {
                 margin-bottom: 0;
             }
             header.meta {
-                h1.post-title, h1.page-title {
-                    margin-bottom: 0.5em;
-                }
                 .date {
                     display: block;
+                     margin: 1em 0;
                     color: $grey;
                     text-align: center;
                 }
@@ -176,7 +182,7 @@ main {
             header.meta {
                 .date {
                     display: block;              
-                    margin-top: 2em;
+                    margin: 1em 0;
                     color: $grey;
                     text-align: center;
                 }

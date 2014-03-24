@@ -81,9 +81,13 @@ pre {
 }
 
 img {
+    display: block;
     max-width: 100%;
-    width: 100%;
     height: auto;
+    margin: {
+        left: auto;
+        right: auto;
+    }
 }
 
 ol {
